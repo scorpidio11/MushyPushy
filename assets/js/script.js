@@ -12,8 +12,8 @@ $(document).ready(function () {
 
     var TwilioSMS = (function ($) {
 
-        var accountSid = 'ACe2465b3e5688360848d8c4597480e6fd';
-        var authToken = 'dbec63d456da69c238ade025293d54c4';
+        var accountSid = '#';
+        var authToken = '#';
 
         var testEndpoint = 'https://api.twilio.com/2010-04-01/Accounts/' + accountSid + '/SMS/Messages.json';
         var liveEndpoint = 'https://api.twilio.com/2010-04-01/Accounts/' + accountSid + '/Messages.json';
